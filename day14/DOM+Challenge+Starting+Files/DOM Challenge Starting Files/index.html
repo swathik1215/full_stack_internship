@@ -22,7 +22,10 @@
       <li class="list" id="t">Third</li>
     </ul>
     <script>
-      document.getElementById("t").innerHTML = "Changed";
+      //1st way
+      //document.getElementById("t").innerHTML = "Changed";
+      //2st way
+      document.body.children[3].lastElementChild.textContent = "Changed";
     </script>
   </body>
 
